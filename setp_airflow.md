@@ -20,12 +20,14 @@ After installing docker desktop, you can run the following commands to stup and 
 
 
 ## Permission to execute the script the start and stop script
-
+```bash
 chmod +x *.sh
+```
 
 ## To start the server
+```bash
 ./start_airflow.sh
-
+```
 
 After running the start script, it may take a few moments for the Airflow server to start up. 
 
@@ -40,5 +42,7 @@ After starting up the server you can access the following ui:
 # 3. Stop the server
 
 ## To stop the server
+```bash
 ./stop_airflow.sh
+```
 
